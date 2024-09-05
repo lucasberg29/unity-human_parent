@@ -9,7 +9,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8400365530444558796}
-  - component: {fileID: 8400365530444558797}
+  - component: {fileID: 7571886155948227686}
   m_Layer: 0
   m_Name: _GameManager
   m_TagString: Untagged
@@ -32,7 +32,7 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &8400365530444558797
+--- !u!114 &7571886155948227686
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -41,11 +41,14 @@ MonoBehaviour:
   m_GameObject: {fileID: 8400365530444558799}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0fb3819a56a27814f952fa2ad744ca5e, type: 3}
+  m_Script: {fileID: 11500000, guid: d2b35457cfc40624e900d42caea54d5d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  color1: {r: 0.007843138, g: 0.62352943, b: 0.7607843, a: 0}
-  color2: {r: 0.8784314, g: 0.90588236, b: 0.92941177, a: 0}
-  color3: {r: 0.9372549, g: 0.93333334, b: 0.23137255, a: 0}
-  color4: {r: 0.29803923, g: 0.2784314, b: 0.15294118, a: 0}
-  color5: {r: 0.9647059, g: 0.92941177, b: 0.87058824, a: 0}
+  _isPaused: 0
+  color1: {r: 0, g: 0, b: 0, a: 0}
+  color2: {r: 0, g: 0, b: 0, a: 0}
+  color3: {r: 0, g: 0, b: 0, a: 0}
+  color4: {r: 0, g: 0, b: 0, a: 0}
+  color5: {r: 0, g: 0, b: 0, a: 0}
+  highestScore: 0
+  currentScore: 0

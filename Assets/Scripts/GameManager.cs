@@ -37,7 +37,7 @@ public class GameManager : MonoBehaviour
             _instance = this;
         }
 
-        highestScore = PlayerPrefs.GetInt("HighestScore"); 
+        highestScore = PlayerPrefs.GetInt("HighestScore");
         //DontDestroyOnLoad(this);
     }
 
@@ -106,9 +106,9 @@ public class GameManager : MonoBehaviour
         return currentScore;
     }
 
-    public void SetCurrentScore( int score )
+    public void SetCurrentScore(int score)
     {
-        currentScore = score;   
+        currentScore = score;
     }
 
     public void AddOneToScore()
@@ -121,7 +121,7 @@ public class GameManager : MonoBehaviour
         return highestScore;
     }
 
-    public void SetHighestScore( int score )
+    public void SetHighestScore(int score)
     {
         highestScore = score;
         PlayerPrefs.SetInt("HighestScore", highestScore);
@@ -133,8 +133,9 @@ public class GameManager : MonoBehaviour
         highestScore = 0;
     }
 
-    public void PlayLevel( string scene )
+    public void PlayLevel(string scene)
     {
         SceneManager.LoadScene(scene);
     }
+
 }
