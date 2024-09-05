@@ -4,7 +4,7 @@
             {
                 "type": "System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089",
                 "key": "buildOutputDirList",
-                "value": "{\"m_Value\":\"C:/Users/Lucas/OneDrive/Desktop/GameDev/Unity/Projects/GMTK-23/Builds/WebGl;;;;;;;;;\"}"
+                "value": "{\"m_Value\":\"C:/Users/Lucas/OneDrive/Desktop/GameDev/Unity/Projects/HumanParent/Builds/WebGL;C:/Users/Lucas/OneDrive/Desktop/GameDev/Unity/Projects/GMTK-23/Builds/WebGL;C:/Users/Lucas/OneDrive/Desktop/GameDev/Unity/Projects/GMTK-23/Builds/WebGl;;;;;;;\"}"
             }
         ]
     }
